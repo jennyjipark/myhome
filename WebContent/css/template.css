@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+.nanumbarungothic * {
+font-family: 'NanumBarunGothic', sans-serif;
+}
+
+    body {
+       margin: 0 auto;
+       height: 100%;
+       width: 100%;
+    }
+    
+    html {
+    	height: 100%;
+    }
+
+/*     .wrap {
+    	min-height: 100%;
+    	position: relative;
+    	padding-bottom: 130px;
+    	margin-top:102px;
+    } */
+    
+    .container {
+    	/* position: relative; */
+        width: 1190px;
+        margin: 0 auto;
+        letter-spacing: -.2px;
+        min-height:100%;
+		padding-bottom:100px;
+		border-left: 1px solid #e0e0e0;
+		border-right: 1px solid #e0e0e0;
+	/* 	border: 1px solid green; */
+		margin-top: 100px;
+    }
+    
+    
+    .header-containerwrap{
+        height: auto;
+	    min-height: 100%;
+	}
+	
+
+    
+    
+    

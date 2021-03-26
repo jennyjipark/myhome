@@ -1,0 +1,161 @@
+    @font-face {
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+/*    
+    .container{
+        z-index: -1;
+    }
+*/
+    .li-list{
+    font-size:19.2px;
+    
+    }
+
+    .boardcover{
+        width: 500px;
+        height: 500px;
+ 
+    }
+    
+    #board{
+        margin-top: 50px;
+        margin-left: 20px
+           
+    }
+    
+    #board{
+        width: 800px;
+        table-layout: fixed;
+    }
+    #board .Boardtdtitle{
+        word-break: break-all;
+        height: 20px;
+        overflow: hidden;
+    }
+
+    #board tr{
+        height: 30px;
+    }
+    .boardtd{
+        text-align: center;
+    
+    }
+    
+    .firtd{
+        width: 60px;
+    }
+    
+    .sectd{
+        width: 200px;
+    }
+    .thitd{
+        width: 130px;
+    }
+    .fortd{
+        width: 100px;
+    }
+    .fiftd{
+        width: 80px;
+    }
+    .sixtd{
+        width: 50px;
+    }
+    
+
+    .boardwork{
+        width: 200px;
+        text-align: center;
+        margin-left: 700px;
+   
+    }        
+    .boardwork button{
+        background-color: #f1aeae;
+        color: aliceblue;
+        display: inline;
+        width: 70px;
+        margin-right: 10px;
+        
+    }
+    
+
+	.boardserch{
+ 	    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 280px;
+    width: 330px;
+ 	
+
+	}
+	
+	#button-addon2{
+	display: inline-block;
+	 background-color:#f1aeae ;
+	 color: white;
+	 outline: none;
+	}
+    /*
+    	.boardserch{
+        margin-top: 50px;    
+        width: 150px;
+
+	}
+    
+    .input-group{
+        width: 200px;
+    }
+    .form-control{
+        display: block;
+        width: 40px;
+    }
+    
+    .boardserch button{
+        background-color: #f1aeae;
+        color: aliceblue;
+        float: right;
+        position: relative;
+        top: -35px;
+        left: 125px;
+        outline: none;
+    }
+    
+    .boardserch button::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+   
+	 */
+
+    
+    .Boardnext{
+        display: block;
+        text-align: center;
+        font-size: 15px;
+        margin-left:280px ;
+        width: 330px;
+    }
+    
+    .countbt{
+        padding:3px;
+    }
+    
+    
+	.boardwrap{
+	        
+	    height: auto;
+	    min-height: 100%;
+	}
+	
+
+ /*02/18 추가사항 */
+ 	.navboardtd{
+	
+	    vertical-align: top;
+			
+	}
+
+ /*02/18 추가사항 */

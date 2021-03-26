@@ -1,0 +1,45 @@
+@charset "UTF-8";
+	
+
+    #footer{
+	    z-index: -1;
+	    background-color: #F1AEAE;
+	    text-align: center;
+	    color: white;
+	    line-height: 28px;
+	    width: 100%;
+	    margin: 0px auto;
+	    height: 130px;
+	    position: relative;
+	    transform: translateY(-100%);    
+	    transform: translateX(0%);
+    }   
+	
+
+
+    #footer-content {
+        position: relative;
+        padding-top: 30px;
+        font-family: 'NanumBarunGothic', sans-serif;
+    }
+    
+    #footer-content2 > a {
+        margin-right: 20px;
+    }
+
+    #chat {
+        width: 80px;
+        height: 80px;
+        background-image: url('../image/chat.png');
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        object-fit: cover;
+        display: block;
+        background-size: cover;
+        background-position: 50% 50%;
+        cursor: pointer;
+        z-index: 0;
+    }
+    
+    

@@ -1,0 +1,75 @@
+
+		.nav1 {
+           /*  border: 1px solid black; */
+            width: 180px;
+            height: 1000px;
+            font-family: 'NanumBarunGothic';
+            font-size: 16px;
+            line-height: 35px;
+            float: left; 
+        }
+
+        .nav1-box1 {
+            border: 1px solid #eaeaea;
+   			box-shadow: 0px 10px 15px #eceaea;
+    		width: 180px;
+    		height: auto;
+   		 	margin-top: 50px;
+    		border-radius: 20px;
+        }
+
+        .nav1-content {
+            border-bottom: 1px solid #e2e2e2;
+            width: 170px;
+            height: 50px;
+            padding: 10px;    
+            cursor: pointer;
+            text-decoration: none;
+            z-index: 999;
+        }
+
+        .nav1-content:last-child {
+            border-bottom: 0px;
+        }
+        
+
+		.nav-list {
+			color: #202020;
+			text-decoration: none;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		.nav-list:hover {
+			color: #f1acac;
+			text-decoration: none;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		
+		
+		
+        .nav1-box1-img {
+            /* border: 1px solid black; */
+            width: 30px;
+            height: 30px;
+            float: left;
+            margin-left: 5px;
+            margin-right: 20px;
+            font-size: 24px;
+            color: #f1acac;
+        }
+
+        #mypage-title {
+            background-color: #f1acac;
+            width: 180px;
+            height: 80px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+            padding: 25px 0px;
+            color: white;
+            font-size: 24px;
+            font-family: 'MaplestoryOTFLight';
+            margin-top: 30px;
+        }

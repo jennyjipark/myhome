@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+    .boardcover{
+    	border: 1px solid tomato;
+    	float: left;
+    	width:900px;
+    	height: auto;
+    	margin-left: 30px; 
+    }
+    
+	#title {
+		font-size: 24px;
+		font-family: 'MaplestoryOTFLight';
+		border-bottom: 1px solid #eaecef;
+		padding-bottom: 10px;
+		margin: 30px 10px;
+		padding : 0px 10px;
+	}
+    
+    .btns {
+    	position : relative;
+    	cursor: pointer;
+    	margin-left: 50px;
+    	margin-bottom: 30px;
+    }
+    
+    .btn {
+	    background-color: #f1aeae;
+	    color: aliceblue;
+	    display: inline;
+	    width: 70px;
+	    margin-right: 10px;
+	    outline: none !important;
+	    
+	}  
+    
+/*     .list {
+    	border : 5px solid black;
+    	margin-bottom : 30px;
+    } */
+    
+    .check {
+    	size :2em;
+    }
+    
+	
+	.stars {
+    	background-color: rgba( 255, 255, 255, 0.5 );
+    }
+	
+    
+    .glyphicon, .rating {
+  
+    	/* float: left; */
+    	font-size : 16px;
+    	padding-left : 20px;
+    	padding-top: 20px;
+    	margin : 0px;
+    }
+    
+    .glyphicon {
+    	color : #F1AEAE;
+    }   
+    
+    
+    .listbox1 {
+    	float: left;
+    	margin : 10px 20px;
+    }
+    
+    .name{
+    	font-size: 20px;
+    	margin: 5px 0px;
+    	border-bottom: 1px solid #eaecef;
+    }
+    
+    .content{
+    	font-size: 16px;
+    	margin : 30px 0px;
+    }
+    
+    .address, .tel, .price, .businessnum, .introduce{
+    	margin : 5px 0px;
+    }
+    
+    
+   .imagelogo{
+    	border : 1px solid black;
+    	width: 280px;
+        height: 180px;
+    	float: left;
+    	/* position: relative; */
+    	background-image: url('../image/move_clean/1. 쌍용청소.jpg');
+    	/* background-position: center center;  */
+        /* background-size: contain; */
+        /* background-repeat: no-repeat; */
+        background-position: 0% 0px; 
+        background-size: cover;
+        margin: 0px 10px;
+    }
+    
+    .search{
+		text-align:center;
+		margin : 20px auto;
+	   	padding: 10px;
+	}
+	
+	.btns {
+		text-align : right;
+		
+	}
+	
+	.search #txt {
+		width: 100px;
+		display: inline;
+	}
